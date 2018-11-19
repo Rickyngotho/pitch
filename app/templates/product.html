@@ -10,7 +10,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse" id="pro">
                   <ul class="nav navbar-nav">
-                    <li><a href="/pitch">Pick up</a></li>
+                    <li><a href="/pitch">Take</a></li>
                     <li><a href="/product">Product</a></li>
                   <li><a href="/interview">Interview</a></li>
                     <li><a href="/promotion">Promotion</a></li>
@@ -26,7 +26,7 @@
         {% for prodo in product_pitches %}           
                 <div class="panel panel-success panel-heading">
                         <ol>
-                    <H3 style="font-family: 'Cookie', cursive;">{{prodo.body}}</H3> 
+                    <H3>{{prodo.body}}</H3> 
                     <p>By:{{prodo.post}}</p>
                     <p>{{prodo.date_posted}}</p> 
                     
@@ -52,13 +52,13 @@
 
 
 </div>
-<style>
-#pro{
+<!-- <style>
+/* #pro{
     font-family: 'Cookie', cursive;
     font-size: 30px;
     color: black;
     
 }
-</style>
+</style> */ -->
 {% endblock%}
 
