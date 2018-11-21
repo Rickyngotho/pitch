@@ -20,18 +20,13 @@ to comment on the different pitches and leave feedback
 to vote on the pitch and give it a downvote or upvote
 
 ### Behavior
-| Behavior	| Input | 	Outcome
-----------------------------------------------------------------------
+| Behavior	| Input | 	Outcome |
+|------------|:------------------------------------:|---------------:|
 | Register to be a user	| Your email : jon@doe.com | New User is registered
-----------------------------------------------------------------------
 | Log in | Your email: jon@doe.com Password: doe1 | Logged in
-----------------------------------------------------------------------
 | Display pitch categories| Categories display on navbar | List of various pitch categories
-----------------------------------------------------------------------
 | Create a pitch | Click add a pitch | An authenticated user is a directed to a page
-----------------------------------------------------------------------
 | Comment on a pitch | Click Comment | User comments a comment on a pitch
-----------------------------------------------------------------------
 
 ### Setup/Installation Requirements
 Click Pitch 
