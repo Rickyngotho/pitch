@@ -36,7 +36,7 @@
            
            
         
-           {% endfor %}
+        {% endfor %}
            
            <a class="btn btn-danger btn-lg text-center" href="/new_pitch"> Add a new pitch</a>
 
@@ -47,13 +47,7 @@
             <a class="btn btn-danger btn-lg text-center" href="/new_pitch"> Add a new pitch</a>
         {% endif %}
 
-    </div> 
-
-
-
-
-
-</div>
+    
 <h3>Comments</h3>
            <h1>LET'S GO</h1>
            {% for comment in comm %}
@@ -61,5 +55,6 @@
            By:{{ comment.comment }}
 
            {% endfor %}
+</div>            
 
-{% endblock%}
+{% endblock %}
