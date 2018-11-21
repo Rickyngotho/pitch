@@ -1,8 +1,9 @@
 {% extends 'bootstrap/base.html'%}
-
+{% block content %}
 <!-- Navbar block  --> 
 {% block navbar %}
     {% include 'navbar.html' %}
 {% endblock %}
 
 {{ wtf.quick_form(form) }}
+{% endblock %}
