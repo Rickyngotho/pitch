@@ -37,7 +37,8 @@ def create_app(config_name):
     # Registering the blueprint
     from .main import main as main_blueprint
     app.register_blueprint(main_blueprint)
-    from .auth import auth as auth_blueprint 
+    from .auth import auth as auth_blueprint
+# The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.rint 
     app.register_blueprint(auth_blueprint,url_prefix = '/authenticate')
 
 
