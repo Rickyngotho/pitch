@@ -29,6 +29,7 @@ to vote on the pitch and give it a downvote or upvote
 | Comment on a pitch | Click Comment | User comments a comment on a pitch
 
 ### Setup/Installation Requirements
+Clone the repository https://github.com/Rickyngotho/pitch.git
 Click Pitch 
 or 
 Copy Pitch and Paste the link on your prefered browser
