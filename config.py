@@ -7,7 +7,8 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://eric:6194@localhost/pitch'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
-
+    # export FLASK_APP=myapp
+   
 
 #  email configurations
     MAIL_SERVER = 'smtp.googlemail.com'
@@ -16,7 +17,7 @@ class Config:
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
 
-
+    
 
 class DevConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://eric:6194@localhost/pitch'
